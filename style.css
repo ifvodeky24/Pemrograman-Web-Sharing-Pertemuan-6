@@ -1,0 +1,91 @@
+.body{
+    background-image: url('background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.h1{
+    height: 50px;
+    max-width: 500px;
+    margin-top: 10px;
+}
+
+.img{
+    height: 350px;
+    width: 500px;
+}
+a:hover{
+    color: blue;
+}
+.menu{
+    background: red;
+    color:white;
+    text-decoration: none;
+    padding: 10px 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+#paragraf{
+    color: rgb(251, 255, 0);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#none{
+    display: none;
+}
+.marque{
+    text-align: center;
+    font-size: 18px;
+}
+
+
+/* mengatur posisi di css */
+/* 1.static, 2.realtif, 3.absolute, 4.fixed */
+/* #menu_about{
+    position: relative;
+    top:40px;
+    left: 10px;
+}
+
+#parent_h2{
+   position: relative; 
+   top: 100px;
+}
+#parent_h1{
+    position: relative; 
+    top: 100px;
+ } */
+/* posisi relatif tergantung dari browser */
+/* #h1_about{
+    background: blue;
+    position: fixed;
+    top: 100px;
+    left: 20px;
+    z-index: -2;
+} */
+
+/* posisi absolute itu tergantung dengan parent element */
+/* #h2_about{
+    background: green;
+    position: absolute;
+    left: 20px;
+    z-index: -1;
+} */
+
+
+img{
+    float: left;
+}
+
+#div_baru{
+    clear: both;
+}
+
+h1:hover{
+    color: yellow;
+}
+h1:hover + h2{
+    color: red;
+}
+input:focus{
+    background: yellowgreen;
+}
